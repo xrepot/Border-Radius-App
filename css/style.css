@@ -144,4 +144,13 @@ button {
 button:hover {
   filter: brightness(116%);
 }
+@media (max-width: 580px) {
+  .wrapper {
+    min-width: 370px;
+  }
+  button {
+    margin-left: 3%;
+    font-size: 14px;
+  }
+}
 /* 46% 54% 56% 44% / 66% 52% 48% 34% */
